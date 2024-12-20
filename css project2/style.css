@@ -1,0 +1,48 @@
+:root {
+  --primary-color: rgb(39, 125, 223, 0.9);
+}
+
+.circle {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  background-color: rgb(233, 67, 67);
+  border: 2px black;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  outline: 15px solid black;
+  transition: background-color 0.3s ease;
+}
+
+.triangle {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+  border-bottom: 150px solid black;
+  transform: rotate(270deg);
+  transition: background-color 0.3s ease;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.sliba {
+  position: relative;
+  display: inline-block;
+}
+
+.container:hover .circle {
+  background-color: darkblue;
+}
+
+.container{
+  position: absolute;
+  height: 600px;
+  width: 600px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
