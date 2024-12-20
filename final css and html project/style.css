@@ -1,0 +1,123 @@
+html, body {
+  margin: 0;
+}
+
+header {
+  background-color: rgb(255, 203, 61);
+  padding-bottom: 60px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 100px;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+
+.navbar ul li {
+  display: inline-block;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  padding: 10px; 
+  color: black;
+}
+
+.Links {
+  display: block;
+}
+
+.Links a {
+  padding-left: 100px;
+  padding-right: 10o0px;
+  padding: 10px;
+  background-color: rgb(23, 218, 169);
+  border-radius: 75%;
+  text-decoration: none;
+  border: 1px solid black;
+  color: white;
+}
+
+.headline {
+  margin-left: 20px;
+  
+}
+
+.headline p {
+  padding-bottom: 50px;
+}
+
+.headline a:hover {
+  background-color: gray;
+}
+
+.navbar li {
+  border-radius: 50%;
+  text-decoration: none;
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar li:hover {
+  transform: scale(1.5);
+  background-color: rgb(66, 44, 3);
+}
+
+.png-picture {
+  background-color: transparent;
+}
+
+.png-picture {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.png-picture img {
+  display: inline;
+  left: 0;
+}
+
+main {
+  margin-left: 20px;
+  padding-bottom: 500px;
+}
+
+.main-title {
+  right: 30%;
+  left: 30%;
+  align-content: center;
+  text-align: center;
+}
+
+.main-title p {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.offers {
+  display: flex;
+  justify-content: space-around;
+}
+
+.offer-item {
+  text-align: center;
+  background-color: rgb(233, 233, 238);
+  border: 1px solid;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 5px 10px 8px 10px #888888;
+}
+
+.offer-item:hover {
+  background-color: aquamarine;
+  transform: scale(1.2);
+  transition: transform 0.6s ease-in-out;
+}
