@@ -1,0 +1,31 @@
+#circle1, #circle2, #circle3, #circle4{
+  width: 200px;
+  height: 200px;
+  box-shadow: 0 2px 4px 4px;
+  border-radius: 50%;
+}
+
+#circles{
+  display: flex;
+  justify-content: space-between;
+  margin: 60px;
+}
+
+.textbox{
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+#circle1{
+  background-color: rgb(238, 78, 38);
+}
+#circle2{
+  background-color: rgb(155, 66, 128);
+}
+#circle3{
+  background-color: rgb(217, 255, 0);
+}
+#circle4{
+  background-color: rgb(47, 216, 165);
+}
